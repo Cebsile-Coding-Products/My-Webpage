@@ -1,0 +1,35 @@
+.name {
+    	height: 25px;
+    	width: 200px;
+    	border-radius: 5px;
+    	font-family: 'Nunito', sans-serif;
+    	margin-bottom: 2px;
+}
+.textarea {
+    	height: 100px;
+    	width: 500px;
+    	border-radius: 5px;
+    	font-family: 'Nunito', sans-serif;
+}
+.submit {
+        text-align: center;
+        border-radius: 20px;
+        border: 1px solid #3C3C3C;
+        color: #FFFFFF;
+        background-color: #3C3C3C;
+        font-family: 'Nunito', sans-serif;
+        width: 57px;
+        height: 33px;
+        margin-top: 1px;
+}
+.send {
+        text-align: center;
+        border-radius: 20px;
+        border: 1px solid #3C3C3C;
+        color: #FFFFFF;
+        background-color: #3C3C3C;
+        font-family: 'Nunito', sans-serif;
+        width: 50px;
+        height: 33px;
+        margin-top: 1px;
+}

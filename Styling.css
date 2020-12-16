@@ -1,0 +1,94 @@
+a:hover {
+	  text-decoration: underline;
+}
+a {
+    text-decoration: none;
+	  color: #FFFFFF;
+}
+#number {
+	   margin-left: 15px;
+	   margin-top: 34px;
+}
+#maps {
+	   margin-left: 232px;
+	   margin-top: -7px;
+}
+#gm {
+	   margin-left: 163px;
+	   margin-top: 34px;
+}
+.twitter {
+	   width: 30px;
+	   height: 30px;
+	   position: absolute;
+  	 size: 12px;
+}
+.whatsapp {
+	   width: 50px;
+	   height: 50px;
+	   position: absolute;
+  	 size: 20px;
+	   margin-left: 60px;
+}
+.pinterest {
+	   width: 30px;
+	   height: 30px;
+	   position: absolute;
+  	size: 12px;
+	   margin-left: 80px; 
+}
+.googleplus {
+	   width: 30px;
+	   height: 30px;
+	   position: absolute;
+	   size: 12px;
+	   margin-left: 120px; 
+}
+.emoji {
+	   width: 30px;
+	   height: 30px;
+	   position: absolute;
+	   size: 12px;
+}
+.youtube {
+	   width: 30px;
+	   height: 30px;
+	   position: absolute;
+	   size: 12px;
+	   margin-left: 160px;
+}
+.instagram {
+	   width: 30px;
+	   height: 30px;
+	   position: absolute;
+	   size: 12px;
+	   margin-left: 40px;
+}
+.phone-call {
+	   width: 50px;
+	   height: 50px;
+	   position: absolute;
+	   size: 20px;
+}
+.gmail {
+	   width: 90px;
+	   height: 50px;
+	   position: relative;
+	   size: 20px;
+	   margin-left: 234px;
+}
+.location {
+	   width: 50px;
+	   height: 50px;
+	   position: absolute;
+	   size: 20px;
+	   margin-left: 250px;
+	   margin-top: -38px;
+}
+.tictok {
+	   width: 30px;
+	   height: 30px;
+	   position: absolute;
+     size: 12px;
+	   margin-left: 200px;
+}
