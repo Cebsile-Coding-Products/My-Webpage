@@ -5,7 +5,7 @@
     	font-family: 'Nunito', sans-serif;
     	margin-bottom: 2px;
 }
-.textarea {
+textarea {
     	height: 100px;
     	width: 500px;
     	border-radius: 5px;
