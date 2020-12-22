@@ -121,6 +121,25 @@
           <span class="dot"></span> 
           <span class="dot"></span> 
         </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="Colored Arrow.png">Back to top</button>
+        <script>
+        var mybutton = document.getElementById("myBtn");
+
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+          if (document.body.scrollTop > 2563 || document.documentElement.scrollTop > 2563) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
         <script>
         var slideIndex = 0;
         showSlides();
