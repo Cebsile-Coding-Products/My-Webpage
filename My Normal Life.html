@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="Styling.css">
         <link rel="stylesheet" href="Slider.css">
         <link rel="stylesheet" href="Form Styling.css" >
+	<link rel="stylesheet" href="Button.css" >  
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito&display=swap">
         <link rel="shortcut icon" type="image/x icon" href="Arrow.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -67,6 +68,20 @@
           <br>
           <br>
           </div>
+	  <button onclick="topFunction()" id="myBtn" title="Go to top"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-up" class="svg-inline--fa fa-angle-up fa-w-10" role="img" viewBox="0 0 320 512"><path fill="white" d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"/></svg></button>
+    	  <script>
+	  var mybutton = document.getElementById("myBtn");
+
+	  window.onscroll = function() {scrollFunction()};
+
+	  function scrollFunction() {
+	    if (document.body.scrollTop > 1500 || document.documentElement.scrollTop > 1500) {
+	    mybutton.style.display = "block";
+	    } else {
+	      mybutton.style.display = "none";
+	    }
+	  }
+	    </script>
           <div class="copyright">
           &copy; 2020 Cebo's Webpage. All rights reserved.
           </div>   
